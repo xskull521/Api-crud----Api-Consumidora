@@ -1,0 +1,15 @@
+﻿
+@using WebApplication2.Models
+
+@model List<CadastroTeste>
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <h1>@item.Descricao</h1>
+        <h2>@item.Email</h2>
+        <h3>@item.Cidade</h3>
+    }
+</div>

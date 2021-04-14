@@ -1,0 +1,15 @@
+﻿
+@using WebApplication1.Models
+
+
+@model List<Endereco>
+
+
+<div class="row">
+  @foreach (var item in Model)
+    {
+        <h1>@item.Rua</h1>
+        <h2>@item.Numero</h2>
+        <h3>@item.Complemento</h3>
+    }
+</div>
